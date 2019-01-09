@@ -1,6 +1,6 @@
 /* Extentions view level */
 
-import android.graphics.Typeface
+iimport android.graphics.Typeface
 import android.support.design.widget.Snackbar
 import android.support.v4.content.ContextCompat
 import android.support.v7.widget.DefaultItemAnimator
@@ -11,8 +11,6 @@ import android.view.View
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.DecelerateInterpolator
 import id.ac.unpad.profolio.R
-import id.co.gits.gitsdriver.utils.GitsHelper.Const.SERVER_ERROR_MESSAGE_DEFAULT
-import id.co.gits.gitsdriver.utils.GitsHelper.Const.SNACKBAR_TIMER_SHOWING_DEFAULT
 
 fun View.visible(
 
@@ -38,13 +36,13 @@ fun View.showSnackbarWithCustomColor(
     duration: Int
 ) {
     val finalMessage = if (TextUtils.isEmpty(message)) {
-        SERVER_ERROR_MESSAGE_DEFAULT
+        Const.SERVER_ERROR_MESSAGE_DEFAULT
     } else {
         message
     }
 
     val finalDuration = if (duration == 0) {
-        SNACKBAR_TIMER_SHOWING_DEFAULT
+        Const.SNACKBAR_TIMER_SHOWING_DEFAULT
     } else {
         duration
     }
@@ -72,13 +70,13 @@ fun View.showSnackbarDefault(
     duration: Int
 ) {
     val finalMessage = if (TextUtils.isEmpty(message)) {
-        SERVER_ERROR_MESSAGE_DEFAULT
+        Const.SERVER_ERROR_MESSAGE_DEFAULT
     } else {
         message
     }
 
     val finalDuration = if (duration == 0) {
-        SNACKBAR_TIMER_SHOWING_DEFAULT
+        Const.SNACKBAR_TIMER_SHOWING_DEFAULT
     } else {
         duration
     }
