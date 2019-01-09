@@ -35,6 +35,14 @@ inline fun <reified T : AppCompatActivity> Context.navigator(
     startActivity(intent)
 }
 
+inline fun <reified T : AppCompatActivity> Context.navigator(
+    intentParams : Intent.() -> Unit
+) {
+    val intent = Intent(this, T::class.java)
+    intent.intentParams()
+    startActivity(intent)
+}
+
 /**
  * Using it for moving to another page with activity package name (usually modular package)
  *
