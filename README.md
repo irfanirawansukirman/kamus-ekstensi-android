@@ -63,3 +63,10 @@ Berisi kumpulan ekstensi kotlin android yang sederhana dan mudah untuk digunakan
 - recyclerview horizontal theme
 - slide animation (on show)
 - slide animation (on hide)
+
+## Author
+- [Irfan Irawan Sukirman](http://instagram.com/irfanirawansukirman)
+- Email : dadang.kotz@gmail.com
+- Phone : 088229270639
+
+** Free collaboration bro **
