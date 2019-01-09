@@ -1,4 +1,4 @@
-package id.ac.unpad.profolio.util.ext
+/* Extentions activity level */
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -21,7 +21,6 @@ import java.io.FileNotFoundException
 import java.io.FileOutputStream
 import java.io.IOException
 import java.util.*
-
 
 /**
  * Using it for replacement fragment
