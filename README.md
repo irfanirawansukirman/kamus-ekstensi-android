@@ -3,16 +3,9 @@
 # Kamus Ekstensi Android
 Berisi kumpulan ekstensi kotlin android yang sederhana dan mudah untuk digunakan
 
-## Activity level
-- replace fragment
-- replace fragment with addBackToStack
-- transparent statusbar
-- show icon inside popup menu
-
 ## Fragment level
 - Custom argument param
 - Finish activity
-- show icon inside popup menu
 
 ## Context level
 - toast (default)
@@ -25,6 +18,10 @@ Berisi kumpulan ekstensi kotlin android yang sederhana dan mudah untuk digunakan
 - log E (Using Timber)
 - log V (Using Timber)
 - saving bitmap into image file
+- replace fragment
+- replace fragment with addBackToStack
+- transparent statusbar
+- show icon inside popup menu
 
 ## General level
 - get device id
