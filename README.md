@@ -10,8 +10,8 @@ Berisi kumpulan ekstensi kotlin android yang sederhana dan mudah untuk digunakan
 - navigator with single param
 - navigator with activity clear top
 - navigator implicit (usually for modular app)
-- log D
-- log E
-- log V
+- log D (Using Timber)
+- log E (Using Timber)
+- log V (Using Timber)
 - saving bitmap into image file
 - show icon inside popup menu
