@@ -6,37 +6,25 @@ Berisi kumpulan ekstensi kotlin android yang sederhana dan mudah untuk digunakan
 ## Activity level
 - replace fragment
 - replace fragment with addBackToStack
-- toast (default)
 - transparent statusbar
-- navigator (default)
-- navigator with single param
-- navigator with activity clear top
-- navigator implicit (usually for modular app)
-- log D (Using [Timber](https://github.com/JakeWharton/timber))
-- log E (Using Timber)
-- log V (Using Timber)
-- saving bitmap into image file
 - show icon inside popup menu
 
 ## Fragment level
 - Custom argument param
-- navigator (default)
-- navigator with single param
-- navigator with activity clear top
-- navigator implicit (usually for modular app)
+- Finish activity
+- show icon inside popup menu
+
+## Context level
 - toast (default)
+- navigator (default)
+- navigator with multiple params
+- navigator with activity clear top
+- navigator implicit (usually for modular app) without params
+- navigator implicit (usually for modular app) with params
 - log D (Using [Timber](https://github.com/JakeWharton/timber))
 - log E (Using Timber)
 - log V (Using Timber)
 - saving bitmap into image file
-- show icon inside popup menu
-
-## Context level
-- navigator (default)
-- navigator with single param
-- navigator with activity clear top
-- navigator implicit (usually for modular app)
-- toast (default)
 
 ## General level
 - get device id
