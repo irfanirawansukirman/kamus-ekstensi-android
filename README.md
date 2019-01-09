@@ -3,7 +3,7 @@
 # Kamus Ekstensi Android
 Berisi kumpulan ekstensi kotlin android yang sederhana dan mudah untuk digunakan
 
-### Activity level
+## Activity level
 - replace fragment
 - replace fragment with addBackToStack
 - toast (default)
@@ -12,6 +12,19 @@ Berisi kumpulan ekstensi kotlin android yang sederhana dan mudah untuk digunakan
 - navigator with single param
 - navigator with activity clear top
 - navigator implicit (usually for modular app)
+- log D (Using [Timber](https://github.com/JakeWharton/timber))
+- log E (Using Timber)
+- log V (Using Timber)
+- saving bitmap into image file
+- show icon inside popup menu
+
+## Fragment level
+- Custom argument param
+- navigator (default)
+- navigator with single param
+- navigator with activity clear top
+- navigator implicit (usually for modular app)
+- toast (default)
 - log D (Using [Timber](https://github.com/JakeWharton/timber))
 - log E (Using Timber)
 - log V (Using Timber)
