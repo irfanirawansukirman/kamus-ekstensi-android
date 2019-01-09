@@ -30,3 +30,36 @@ Berisi kumpulan ekstensi kotlin android yang sederhana dan mudah untuk digunakan
 - log V (Using Timber)
 - saving bitmap into image file
 - show icon inside popup menu
+
+## Context level
+- navigator (default)
+- navigator with single param
+- navigator with activity clear top
+- navigator implicit (usually for modular app)
+- toast (default)
+
+## General level
+- get device id
+- get width n height of screen
+- get statusbar height
+- set autofit grid margin
+- currency format to rupiah
+- justify content in webview
+- locale date checking (Ind, En)
+- network checking
+- email validation
+- phone validation
+- date transform from long
+- date transform from string
+
+## View level
+- visible view
+- invisible view
+- gone view
+- snackbar (default)
+- snackbar with custom color
+- custom font
+- recyclerview vertical theme
+- recyclerview horizontal theme
+- slide animation (on show)
+- slide animation (on hide)
